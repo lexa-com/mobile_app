@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idCVCOurseItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/secondary"
+    android:layout_margin="5dp"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:weightSum="100"
+        android:background="@color/white"
+        app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:weightSum="100"
+        android:background="@color/white"
+        app:cardCornerRadius="6dp">
+        <TextView
+            android:id="@+id/iddate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="Date"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/idleague"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:textSize="12dp"
+            android:text="league"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/idko"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="ko"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idgame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="game"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="100">
+
+            <TextView
+                android:id="@+id/ft"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="FT"
+                android:textColor="@color/black" />
+
+
+
+            <TextView
+                android:id="@+id/idresults"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="Results"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idverdict"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="Verdict"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idpredict"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:text="prediction"
+                android:textColor="@color/secondary" />
+
+            <TextView
+                android:id="@+id/idodd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@color/primary"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="Odd"
+                android:textColor="@color/secondary"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

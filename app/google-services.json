@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "1083878228480",
+    "project_id": "football-2e895",
+    "storage_bucket": "football-2e895.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083878228480:android:a203043b95b60266774ee5",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxrvdcDYkwS-PfjxqRIDgiCFLPRQ1gyZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083878228480:android:76a61362719a2cb6774ee5",
+        "android_client_info": {
+          "package_name": "com.example.betgurus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxrvdcDYkwS-PfjxqRIDgiCFLPRQ1gyZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083878228480:android:47ebf3efc6ef03e0774ee5",
+        "android_client_info": {
+          "package_name": "com.hedasports.betgurus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxrvdcDYkwS-PfjxqRIDgiCFLPRQ1gyZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

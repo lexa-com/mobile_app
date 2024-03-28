@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="test.example.betgurus.MainActivity">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:text="GURU BETS"
+        android:textColor="@color/secondary"
+        android:textSize="36dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        app:layout_constraintTop_toTopOf="@id/grid1.0" />
+
+    <Button
+        android:id="@+id/daily"
+        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary"
+        android:text="Daily Tips"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        app:layout_constraintEnd_toStartOf="@id/v2"
+        app:layout_constraintTop_toTopOf="@id/grid3.0"
+       />
+
+    <Button
+        android:id="@+id/special"
+        android:layout_marginTop="20dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary"
+        android:text="Special Tips"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        app:layout_constraintEnd_toStartOf="@id/v2"
+        app:layout_constraintTop_toBottomOf="@id/daily"/>
+
+    <Button
+        android:id="@+id/htft"
+        android:layout_marginTop="20dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary"
+        android:text="HT/FT Tips"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        app:layout_constraintEnd_toStartOf="@id/v2"
+        app:layout_constraintTop_toBottomOf="@id/special" />
+
+    <Button
+        android:id="@+id/high"
+        android:layout_width="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary"
+        android:text="High Odds Tips"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        app:layout_constraintEnd_toStartOf="@id/v2"
+        app:layout_constraintTop_toBottomOf="@id/htft" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/grid8.0"
+        app:layout_constraintGuide_percent=".8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/grid3.0"
+        app:layout_constraintGuide_percent="0.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/grid9.0"
+        app:layout_constraintGuide_percent="0.95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/grid1.0"
+        app:layout_constraintGuide_percent="0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v1"
+        app:layout_constraintGuide_percent=".1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v2"
+        app:layout_constraintGuide_percent=".9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/privacy"
+        app:layout_constraintBottom_toTopOf="@id/grid9.0"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#08FFA8"
+        android:text="Our Privacy Policy" />
+</androidx.constraintlayout.widget.ConstraintLayout>

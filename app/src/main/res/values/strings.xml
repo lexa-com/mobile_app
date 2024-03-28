@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bet Gurus</string>
+    <string name="admob_app_id">
+ca-app-pub-2718840837060329~2816593731</string>
+    <string name="admob_banner_id">
+ca-app-pub-2718840837060329/4295813472</string>
+    <string name="admob_interstitial_id">
+        ca-app-pub-2718840837060329/7050711586</string>
+</resources>

@@ -58,8 +58,9 @@
         android:id="@+id/idRVCourses"
         android:layout_below="@id/card"
         android:layout_marginTop="80px"
+        android:layout_marginBottom="150px"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
 
     <!--Progress bar for showing loading screen-->
     <ProgressBar

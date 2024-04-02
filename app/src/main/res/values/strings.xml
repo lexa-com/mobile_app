@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">Bet Gurus</string>
+
+    <string name="app_name">Heda Sports Tips</string>
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">Take a moment and give us 5 stars ⭐⭐⭐⭐⭐ It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+<!--    <string name="rate_dialog_no">No, Thanks</string>-->
     <string name="admob_app_id">
 ca-app-pub-2718840837060329~2816593731</string>
     <string name="admob_banner_id">

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
-        android:text="GURU BETS"
+        android:text="HEDA TIPS"
         android:textColor="@color/secondary"
         android:textSize="36dp"
         android:textStyle="italic"

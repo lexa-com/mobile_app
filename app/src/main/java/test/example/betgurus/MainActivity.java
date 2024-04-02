@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.betgurus.R;
+import hotchemi.android.rate.AppRate;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -62,5 +63,13 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+        AppRate.with(this)
+                .setInstallDays(1)
+                .setLaunchTimes(3)
+                .setRemindInterval(2)
+                .monitor();
+
+        AppRate.showRateDialogIfMeetsConditions(this);
     }
 }
